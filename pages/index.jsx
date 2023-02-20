@@ -20,8 +20,8 @@ export default function Home() {
           <p>
             Enthusiastic and motivated frontend developer, who enjoys turning
             problems into simple, beautiful and accessible designs. Currently,
-            I'm focus on gaining more experience in my field and working with
-            new tools.
+            I&apos;m focus on gaining more experience in my field and working
+            with new tools.
           </p>
           <div>
             <ul>
