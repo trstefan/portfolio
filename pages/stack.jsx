@@ -93,7 +93,7 @@ const StackPage = () => {
         <h3>My Toolbox</h3>
         <div className={styles.container}>
           {tools.map((tool) => (
-            <ToolCard tool={tool} key={tool.name}></ToolCard>
+            <ToolCard tool={tool} key={tool.name} />
           ))}
         </div>
       </div>
