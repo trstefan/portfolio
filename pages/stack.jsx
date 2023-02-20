@@ -4,11 +4,11 @@ import styles from "../styles/Stack.module.css";
 const tools = [
   {
     name: "HTML",
-    icon: "HTML.svg",
+    icon: "html.svg",
   },
   {
     name: "CSS",
-    icon: "CSS.svg",
+    icon: "css.svg",
   },
   {
     name: "Javascript",
@@ -16,31 +16,31 @@ const tools = [
   },
   {
     name: "Bootstrap",
-    icon: "Bootstrap.svg",
+    icon: "bootstrap.svg",
   },
   {
     name: "Tailwind",
-    icon: "Tailwind.svg",
+    icon: "tailwind.svg",
   },
   {
     name: "ReactJS",
-    icon: "React.svg",
+    icon: "react.svg",
   },
   {
     name: "NextJS",
-    icon: "Nextjs.svg",
+    icon: "nextjs.svg",
   },
   {
     name: "NodeJS",
-    icon: "Nodejs.svg",
+    icon: "nodejs.svg",
   },
   {
     name: "ExpressJS",
-    icon: "Express.png",
+    icon: "express.png",
   },
   {
     name: "MongoDB",
-    icon: "MongoDB.svg",
+    icon: "mongodb.svg",
   },
   {
     name: "Git",
@@ -56,31 +56,31 @@ const tools = [
   },
   {
     name: "VS Code",
-    icon: "VsCode.svg",
+    icon: "vscode.svg",
   },
   {
     name: "Postman",
-    icon: "Postman.svg",
+    icon: "postman.svg",
   },
   {
     name: "Notion",
-    icon: "Notion.svg",
+    icon: "notion.svg",
   },
   {
     name: "Trello",
-    icon: "Trello.svg",
+    icon: "trello.svg",
   },
   {
     name: "Heroku",
-    icon: "Heroku.svg",
+    icon: "heroku.svg",
   },
   {
     name: "Vercel",
-    icon: "Vercel.svg",
+    icon: "vercel.svg",
   },
   {
     name: "Markdown",
-    icon: "Markdown.svg",
+    icon: "markdown.svg",
   },
 ];
 const StackPage = () => {
