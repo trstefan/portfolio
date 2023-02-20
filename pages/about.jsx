@@ -21,18 +21,18 @@ const AboutPage = () => {
       <br />
       <p className={styles.about__paragraphs}>
         Fast-forward to today, I have a BSc in Computing Science from University
-        of East Anglia and I've had the privilege of working on various exciting
-        projects during my time there. My main focus these days is turning
-        problems into simple and accesible designs.
+        of East Anglia and I&apos;ve had the privilege of working on various
+        exciting projects during my time there. My main focus these days is
+        turning problems into simple and accesible designs.
       </p>
 
       <br />
       <p className={styles.about__paragraphs}>
-        When I'm not coding, I could be doing any number of things. In no
-        particular order of importance, I'm pretty into watching sports,mainly
-        Formula 1 and football,and geek stuff like Star Wars and Marvel shows.
-        Also, I enjoy a good walk in nature and petting my cats. And video
-        games, I like those too.
+        When I&apos;m not coding, I could be doing any number of things. In no
+        particular order of importance, I&apos;m pretty into watching
+        sports,mainly Formula 1 and football,and geek stuff like Star Wars and
+        Marvel shows. Also, I enjoy a good walk in nature and petting my cats.
+        And video games, I like those too.
       </p>
       <h1 className={styles.page__title}>Currently working on: </h1>
       <hr></hr>
