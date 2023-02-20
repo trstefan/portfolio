@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Rick and Morty React App",
+    "description": "ReactJS web app that consumes Rick and Morty API to display details of characters from the Rick and Morty show.",
+    "tags": ["react", "tailwind", "api"],
+    "source_code": "https://github.com/trstefan/rick-and-mortyapi",
+    "demo": "https://rick-and-mortyapi.vercel.app/"
+  },
+  {
+    "id": 2,
+    "name": "StarWars Wiki",
+    "description": "ReactJS web app that consumes Star Wars API to display information about the Star Wars universe.",
+    "tags": ["react", "CSS", "api"],
+    "source_code": "https://github.com/trstefan/starwars-wiki",
+    "demo": "https://starwars-wiki-six.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "Movies NextJS",
+    "description": "NextJS web app that provides all the information of the upcoming and old movies according to the users need",
+    "tags": ["next", "react", "CSS", "api"],
+    "source_code": "https://github.com/trstefan/movies-nextjs",
+    "demo": "https://movies-nextjs-one.vercel.app/movies"
+  },
+  {
+    "id": 4,
+    "name": "ReactDex",
+    "description": "ReactJS web app that consumes PokeAPI to display first generation of Pokemons along with their stats.",
+    "tags": ["react", "CSS", "api"],
+    "source_code": "https://github.com/trstefan/reactdex",
+    "demo": "https://trstefan.github.io/reactdex/#/"
+  },
+  {
+    "id": 5,
+    "name": "React Notes",
+    "description": "Sticky notes application built in ReactJS",
+    "tags": ["react", "CSS"],
+    "source_code": "https://github.com/trstefan/react-notes",
+    "demo": "https://trstefan.github.io/react-notes/"
+  },
+  {
+    "id": 6,
+    "name": "Frontend Mentor Tracker",
+    "description": "Platform for my submissions for the Frontend Mentor Challenges",
+    "tags": ["HTML", "CSS", "javascript"],
+    "source_code": "https://github.com/trstefan/frontendmentortracker",
+    "demo": "https://trstefan.github.io/frontendmentortracker/"
+  },
+  {
+    "id": 7,
+    "name": "N days of code Tracker",
+    "description": "Platform for my submissions for the nDaysOfCode challenge",
+    "tags": ["HTML", "CSS", "javascript"],
+    "source_code": "https://github.com/trstefan/ndaysofcode",
+    "demo": "https://trstefan.github.io/ndaysofcode/"
+  }
+]

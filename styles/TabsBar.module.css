@@ -1,0 +1,17 @@
+.tabsBar {
+  display: flex;
+  background-color: #011627;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 860px) {
+  .tabsBar {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tabsBar {
+    width: 88vw;
+  }
+}

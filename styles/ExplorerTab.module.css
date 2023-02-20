@@ -1,0 +1,72 @@
+.explorerTab {
+  background-color: #011627;
+  width: 18vw;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.7rem;
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.portfolioTab {
+  text-transform: uppercase;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+/*
+.filesTab__interests {
+  margin-left: 6px;
+}
+
+.filesTab__react {
+  margin-left: 2px;
+}
+*/
+.file__react {
+  display: flex;
+
+  font-size: 0.9rem;
+}
+
+.link {
+  all: unset;
+}
+
+.file:hover {
+  cursor: pointer;
+  background-color: #0e293f;
+}
+
+.file {
+  display: flex;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .explorerTab {
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .explorerTab {
+    display: none;
+  }
+}

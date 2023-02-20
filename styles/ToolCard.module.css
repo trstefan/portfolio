@@ -1,0 +1,13 @@
+.tool__card {
+  color: black;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tool__card h5 {
+  margin-top: 0.5rem;
+  color: azure;
+}

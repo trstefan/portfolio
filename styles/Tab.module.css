@@ -1,0 +1,27 @@
+.tab {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(39, 43, 59);
+  font-size: 0.9rem;
+  background-color: #01111d;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b18a;
+}
+
+.tab p {
+  margin-left: 5px;
+  text-transform: lowercase;
+
+  font-weight: 600;
+}
+
+.active {
+  background-color: #0b2942;
+  border-bottom: 2px solid #a3b18a;
+}
+
+.link {
+  text-decoration: none;
+  color: lavender;
+}

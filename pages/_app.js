@@ -1,5 +1,14 @@
-import '@/styles/globals.css'
+import Layout from "../components/Layout";
+import Head from "../components/Head";
+import "../styles/global.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return (
+    <Layout>
+      <Head title={`ST | ${pageProps.title}`}></Head>
+      <Component {...pageProps}></Component>
+    </Layout>
+  );
 }
+
+export default MyApp;

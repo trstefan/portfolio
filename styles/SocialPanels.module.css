@@ -1,0 +1,40 @@
+.code__container {
+  font-size: 1.2rem;
+  letter-spacing: 0.2px;
+  line-height: 2rem;
+  counter-reset: line;
+}
+
+.line__code::before {
+  content: counter(line);
+  counter-increment: line;
+  margin-right: 1rem;
+  color: grey;
+}
+
+.line__code {
+  color: #89a4bb;
+}
+.span {
+  font-style: italic;
+  color: #d7ba7d;
+}
+
+.span__value {
+  color: #ce9178;
+}
+
+.code__container a {
+  text-decoration: none;
+  color: #ce9178;
+}
+.code__container a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .code__container {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}

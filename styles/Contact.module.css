@@ -1,0 +1,93 @@
+.page__title {
+  font-style: italic;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.contact__container h3 {
+  margin-bottom: 1rem;
+  font-size: 1.17rem;
+  font-weight: bold;
+}
+
+.contact__container > * {
+  flex: 1;
+}
+
+.contact__container > div:first-child {
+  border-right: 1px solid rgb(95, 126, 151);
+}
+
+.contact__form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #89a4bb;
+}
+
+.flex__row {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  resize: none;
+  padding: 0.75rem;
+  border: none;
+  font-size: 1rem;
+  background: #031d33;
+  color: #89a4bb;
+  font-family: "JetBrains Mono";
+}
+
+.contact__form button {
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  background-color: #031d33;
+  color: #89a4bb;
+}
+
+.contact__form button:hover {
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+
+.contact__form input:focus,
+.contact__form textarea:focus {
+  outline: 1px solid #00d7c3;
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 1px solid #00d7c3;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact__container {
+    display: block;
+  }
+  .contact__container > div:first-child {
+    border-right: none;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flex__row {
+    display: block;
+  }
+  .contact__form input {
+    font-size: 0.85rem;
+  }
+}

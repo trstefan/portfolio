@@ -1,0 +1,69 @@
+.titlebar {
+  background-color: #011627;
+  padding: 0 0.5rem;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  border-bottom: 1px solid #262a39;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.85rem;
+}
+
+.itemsMenu {
+  display: flex;
+  flex: 1;
+  margin-right: auto;
+  margin-left: 0.5rem;
+}
+
+.itemsMenu > * {
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+.itemsMenu > *:hover {
+  background-color: #1b222f;
+  color: #a3b18a;
+}
+
+.title {
+  text-align: center;
+  flex: 1;
+}
+
+.buttons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.buttons * {
+  margin-left: 0.5rem;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+}
+
+.minimize {
+  background-color: yellow;
+  margin-left: auto;
+}
+.maximize {
+  background-color: green;
+}
+.close {
+  background-color: red;
+}
+
+@media screen and (max-width: 900px) {
+  .itemsMenu p {
+    display: none;
+  }
+
+  .title {
+    flex: 4;
+  }
+}

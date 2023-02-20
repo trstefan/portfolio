@@ -1,0 +1,80 @@
+.project__card__info p {
+  margin-top: 0.7rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.project__card:not(:first-of-type) {
+  margin-top: 3rem;
+}
+
+.sites__links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.sites__links ul li {
+  list-style: none;
+  margin: 0 5px 5px 5px;
+}
+
+.sites__links ul li a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.sites__links ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00d7c3;
+}
+
+.sites__links ul li a:hover {
+  color: #00d7c3;
+  box-shadow: 0 0 5px #00d7c3;
+  text-shadow: 0 0 5px #00d7c3;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 1rem;
+}
+
+.tags span {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border-radius: 25px;
+
+  cursor: pointer;
+  font-size: 0.95rem;
+  margin: 0.5rem 0.5rem 0 0;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.tags span::first-letter {
+  text-transform: uppercase;
+}
+
+.tags span:hover,
+.tags span:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.project__title {
+  font-weight: 700;
+}
