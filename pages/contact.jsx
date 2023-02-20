@@ -13,7 +13,7 @@ const ContactPage = () => {
 
   const submitForm = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://stportfolio.vercel.app/contact", {
+    const res = await fetch("https://stportfolio.vercel.app//api/contact", {
       method: "POST",
       body: JSON.stringify({ name, email, subject, message }),
     });
