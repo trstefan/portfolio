@@ -19,7 +19,7 @@ const ContactPage = () => {
     });
     // Success if status code is 201
     if (res.status === 201) {
-      toast("Thank you for contacting us!", { type: "success" });
+      toast("Thank you for contacting me!", { type: "success" });
     } else {
       toast("Please re-check your inputs.", { type: "error" });
     }
