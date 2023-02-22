@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.home__container__info}>
           <h3>Hi, my name is</h3>
           <h2>Stefan Traciu</h2>
-          <h3>I build things that lives on the internet </h3>
+          <h3>I build things that live on the internet </h3>
           <p>
             Enthusiastic and motivated frontend developer, who enjoys turning
             problems into simple, beautiful and accessible designs. Currently,
