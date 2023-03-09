@@ -27,13 +27,13 @@
 }
 
 .javascript {
-  border: 2px solid #ffea20;
-  color: #ffea20;
+  border: 2px solid #ffca28;
+  color: #ffca28;
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 .javascript:hover {
-  box-shadow: 0 0 40px 40px #ffea20 inset;
-  color: red;
+  box-shadow: 0 0 40px 40px #ffca28 inset;
+  color: black;
 }
 
 .react {
@@ -41,8 +41,19 @@
   color: #00d7c3;
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
+
 .react:hover {
   box-shadow: 0 0 40px 40px #00d7c3 inset;
+}
+
+.firebase {
+  border: 2px solid #ffa000;
+  color: #ffa000;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.firebase:hover {
+  box-shadow: 0 0 40px 40px #ffa000 inset;
 }
 
 .next {
@@ -63,6 +74,17 @@
 .tailwind:hover {
   box-shadow: 0 0 40px 40px #8e44ad inset;
 }
+
+.materialUI {
+  border: 2px solid #757ce8;
+  color: #757ce8;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.materialUI:hover {
+  box-shadow: 0 0 40px 40px #757ce8 inset;
+}
+
 .api {
   border: 2px solid #ea8fea;
   color: #ea8fea;

@@ -17,6 +17,14 @@
   },
   {
     "id": 3,
+    "name": "Firebase Todo ",
+    "description": "CRUD React Todo application using Firebase",
+    "tags": ["react", "firebase", "materialUI"],
+    "source_code": "https://github.com/trstefan/firebase-todo",
+    "demo": "https://firebase-todo-two.vercel.app/"
+  },
+  {
+    "id": 4,
     "name": "Movies NextJS",
     "description": "NextJS web app that provides all the information of the upcoming and old movies according to the users need",
     "tags": ["next", "react", "CSS", "api"],
@@ -24,7 +32,7 @@
     "demo": "https://movies-nextjs-one.vercel.app/movies"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "ReactDex",
     "description": "ReactJS web app that consumes PokeAPI to display first generation of Pokemons along with their stats.",
     "tags": ["react", "CSS", "api"],
@@ -32,7 +40,7 @@
     "demo": "https://trstefan.github.io/reactdex/#/"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "React Notes",
     "description": "Sticky notes application built in ReactJS",
     "tags": ["react", "CSS"],
@@ -40,7 +48,7 @@
     "demo": "https://trstefan.github.io/react-notes/"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Frontend Mentor Tracker",
     "description": "Platform for my submissions for the Frontend Mentor Challenges",
     "tags": ["HTML", "CSS", "javascript"],
@@ -48,7 +56,7 @@
     "demo": "https://trstefan.github.io/frontendmentortracker/"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "N days of code Tracker",
     "description": "Platform for my submissions for the nDaysOfCode challenge",
     "tags": ["HTML", "CSS", "javascript"],
