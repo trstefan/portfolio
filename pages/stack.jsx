@@ -31,6 +31,10 @@ const tools = [
     icon: "nextjs.svg",
   },
   {
+    name: "Firebase",
+    icon: "firebase.svg",
+  },
+  {
     name: "NodeJS",
     icon: "nodejs.svg",
   },
@@ -77,10 +81,6 @@ const tools = [
   {
     name: "Vercel",
     icon: "vercel.svg",
-  },
-  {
-    name: "Markdown",
-    icon: "markdown.svg",
   },
 ];
 const StackPage = () => {

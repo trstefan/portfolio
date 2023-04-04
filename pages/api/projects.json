@@ -57,10 +57,10 @@
   },
   {
     "id": 8,
-    "name": "N days of code Tracker",
-    "description": "Platform for my submissions for the nDaysOfCode challenge",
+    "name": "HTML-CSS-JS snippets",
+    "description": "Platform for HTML-CSS-JS snippets",
     "tags": ["HTML", "CSS", "javascript"],
-    "source_code": "https://github.com/trstefan/ndaysofcode",
-    "demo": "https://trstefan.github.io/ndaysofcode/"
+    "source_code": "https://github.com/trstefan/html-css-js-snippets",
+    "demo": "https://trstefan.github.io/html-css-js-snippets/"
   }
 ]
